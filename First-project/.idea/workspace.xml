@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58ed5a82-e4cf-4a6f-bd6d-cb0f50b938a2" name="Default Changelist" comment="" />
+    <list default="true" id="58ed5a82-e4cf-4a6f-bd6d-cb0f50b938a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ArrayCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ArraysUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SortingAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/TwoDimensionArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/character/ADHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/character/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/character1/SupportHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/property/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/property/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/property/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/Operations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operations.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +46,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WyXiitZOmevnYiPamuTmdNYCry" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -38,24 +66,67 @@
       <command value="HelloWorld" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Operations">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+  <component name="RunManager" selected="Application.Hero">
+    <configuration name="ADHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="character.character.ADHero" />
+      <module name="First-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="character.support.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Operations" />
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Array" />
       <module name="First-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <module name="First-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="character.character.Hero" />
+      <module name="First-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="character.support.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupportHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="character.support.SupportHero" />
+      <module name="First-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="character.support.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Operations" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Hero" />
+        <item itemvalue="Application.SupportHero" />
+        <item itemvalue="Application.ADHero" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.Conditions" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +156,7 @@
       <workItem from="1580130321032" duration="2101000" />
       <workItem from="1580195156226" duration="273000" />
       <workItem from="1580195536762" duration="239000" />
+      <workItem from="1580196093906" duration="12203000" />
     </task>
     <servers />
   </component>
@@ -100,22 +172,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580123045435" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1580195122058">
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1580215787861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580195122058" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1580195122057">
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580215787861" />
+    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1580215787861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580195122057" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1580195122057">
+    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580215787861" />
+    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1580215787860">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580195122057" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1580195122057">
+    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580215787860" />
+    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1580215787861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580195122057" />
+    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580215787861" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1580195119031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

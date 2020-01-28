@@ -32,8 +32,8 @@ public class Operations {
         System.out.println(i&j); //所以 5&6 对每一位进行与运算，得到 100->4
         System.out.println(i^j); //所以 5^6 对每一位进行或运算，得到 011->3
 
-        System.out.println(i^0); // == 0
-        System.out.println(i^i); // == i
+        System.out.println(i^0); // == i
+        System.out.println(i^i); // == 0
 
         System.out.println(Integer.toBinaryString(i)); //5的二进制是00000101,所以取非即为11111010,即为-6
         System.out.println(~i);
@@ -66,5 +66,15 @@ public class Operations {
         System.out.println(Integer.toBinaryString(k));
 
         System.out.println(k);
+
+        System.out.println("今天是周几？");
+        int date = s.nextInt();
+        System.out.println((date == 1) ? "星期一" :
+                                    (date == 2) ? "星期二" :
+                                            (date == 3) ? "星期三" :
+                                                    (date == 4) ? "星期四" :
+                                                            (date == 5) ? "星期五" :
+                                                                (date == 6) ? "星期六" :
+                                                                        (date == 7) ? "星期日" : "不明白");
     }
 }
