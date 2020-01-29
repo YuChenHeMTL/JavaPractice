@@ -1,9 +1,11 @@
 package character.character1;
 
+import character.character.Healer;
 import character.character.Hero;
 
-public class SupportHero extends Hero {
-    void heal(){
+public class SupportHero extends Hero implements Healer {
+    @Override
+    public void heal(){
         System.out.println(this.name + " 使用了治疗");
     }
 

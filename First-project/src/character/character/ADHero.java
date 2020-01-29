@@ -1,6 +1,6 @@
 package character.character;
 
-public class ADHero extends Hero {
+public class ADHero extends Hero implements AD, Mortal {
     public void attack() {
         System.out.println(name + " 进行了一次攻击 ，但是不确定打中谁了");
     }
@@ -20,6 +20,28 @@ public class ADHero extends Hero {
             System.out.print(heros[i].name + " , ");
         }
         System.out.print("和 " + heros[heros.length - 1].name + " 进行了攻击 ");
+    }
+
+    @Override
+    public void physicalAttack() {
+        System.out.println("进行物理攻击");
+    }
+
+    @Override
+    public void die(){
+        System.out.print("一个AD的英雄死了");
+    }
+
+    //隐藏父类的battleWin方法
+    public static void battleWin(){
+        System.out.println("ad hero battle win");
+    }
+
+    //todo: super: 子类显式调用父类带参构造
+
+    public ADHero(){
+        //the parent constructor is used here
+        super();
     }
 
     public static void main(String[] args) {

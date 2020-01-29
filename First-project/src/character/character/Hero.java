@@ -1,5 +1,7 @@
 package character.character;
 
+import java.util.Scanner;
+
 public class Hero {
 
     public String name; //姓名
@@ -45,6 +47,43 @@ public class Hero {
         h.showAddressInMemory();
     }
 
+    //todo: 对象属性和类属性
+
+    static String copyright;//类属性,静态属性
+
+    //todo：类方法，静态方法
+    //通过类就可以直接调用
+    public static void battleWin(){
+        System.out.println("hero battle win");
+    }
+
+    //todo: 属性初始化
+    //对象属性初始化
+    float maxHP;
+
+    {
+        maxHP = 200; //初始化块
+    }
+
+//    public Hero(){
+//        hp = 100; //构造方法中初始化
+//
+//    }
+
+    //类属性初始化
+    //物品栏的容量
+    public static int itemCapacity=8; //声明的时候 初始化
+
+    static{
+        itemCapacity = 6;//静态初始化块 初始化
+    }
+
+    public void kill(Mortal m){
+        System.out.print(this.name + "让");
+        m.die();
+        System.out.print("\n");
+    }
+
     public static void main(String[] args) {
         Hero garen =  new Hero("盖伦");
 //        Hero teemo =  new Hero("提莫",383);
@@ -57,9 +96,53 @@ public class Hero {
         teemo.hp = teemo.hp - 400;
 
         teemo.revive(teemo);
-        teemo.showAddressInMemory();
+//        teemo.showAddressInMemory();
 
-        System.out.println(teemo.hp);
+//        System.out.println(teemo.hp);
+
+        //无需对象，直接通过类调用
+        Hero.battleWin();
+        teemo.battleWin();
+
+//        Scanner s = new Scanner(System.in);
+//        System.out.println("请输入一个HeroType");
+//        HeroType heroType = HeroType.ASSASSIN;
+//        switch (heroType){
+//            case TANK:
+//                System.out.println("坦克"); break;
+//            case WIZARD:
+//                System.out.println("法师"); break;
+//            case ASSASSIN:
+//                System.out.println("刺客"); break;
+//            case ASSIST:
+//                System.out.println("辅助"); break;
+//            case WARRIOR:
+//                System.out.println("近战"); break;
+//            case RANGED:
+//                System.out.println("远程"); break;
+//            case PUSH:
+//                System.out.println("推进"); break;
+//            case FARMING:
+//                System.out.println("打野"); break;
+//
+//        }
+
+        ADHero somead = new ADHero();
+        APHero someap = new APHero();
+        ADAPHero someadap = new ADAPHero();
+
+        garen.kill(somead);
+        garen.kill(someap);
+        garen.kill(someadap);
+
+        Hero h = new ADHero();
+
+        //todo: 父类方法隐藏
+        //这里引用的是Hero的battleWin，因为虽然他指向的是一个ADHero，
+        //但它属于Hero类，所以会引用Hero类的static method
+        h.battleWin();
+
+        System.out.println(h);
 
     }
 
