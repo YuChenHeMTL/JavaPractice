@@ -2,35 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ed5a82-e4cf-4a6f-bd6d-cb0f50b938a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/character/Final.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/InnerHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/Modifiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/AD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/ADAPHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/AP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/APHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/AbstractHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/GiantDragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/Healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/HeroType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/Inheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/Mortal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/character/SingletonHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/property/LifePotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/property/MagicPotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/property/SingletonItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/practice/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/practice/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/practice/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/practice/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/character/practice/Spider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/Integers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/printf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/stringConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/ADHero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/Armor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/SupportHero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/character/AD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/character/character/AD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/character/AP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/character/character/AP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/character/character/AD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/AD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/character/character/ADAPHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/ADAPHero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/character/character/ADHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/ADHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/character/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/character1/SupportHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character1/SupportHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/property/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/property/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/character/character/AP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/AP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/character/character/Mortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/Mortal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +73,13 @@
       <command value="HelloWorld" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.InnerHero">
-    <configuration name="Hero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="character.character.Hero" />
+  <component name="RunManager" selected="Application.strings">
+    <configuration name="character" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.character" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="character.support.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="character.character.Inheritance" />
+    <configuration name="math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.math" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="character.character.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="character.InnerHero" />
+    <configuration name="printf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.printf" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="character.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Item" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="character.property.Item" />
+    <configuration name="stringConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.stringConversion" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="character.property.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Object" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="character.character.Object" />
+    <configuration name="strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.strings" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="character.character.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InnerHero" />
-        <item itemvalue="Application.Object" />
-        <item itemvalue="Application.Hero" />
-        <item itemvalue="Application.Item" />
-        <item itemvalue="Application.Inheritance" />
+        <item itemvalue="Application.strings" />
+        <item itemvalue="Application.character" />
+        <item itemvalue="Application.printf" />
+        <item itemvalue="Application.math" />
+        <item itemvalue="Application.stringConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +175,7 @@
       <workItem from="1580130321032" duration="2101000" />
       <workItem from="1580195156226" duration="273000" />
       <workItem from="1580195536762" duration="239000" />
-      <workItem from="1580196093906" duration="27115000" />
+      <workItem from="1580196093906" duration="36043000" />
     </task>
     <servers />
   </component>
@@ -209,22 +199,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1580292837447" />
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1580294233869">
+    <state width="1237" height="113" key="GridCell.Tab.0.bottom" timestamp="1580308085886">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580294233869" />
-    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1580294233869">
+    <state width="1237" height="113" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580308085886" />
+    <state width="1237" height="113" key="GridCell.Tab.0.center" timestamp="1580308085885">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580294233869" />
-    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1580294233868">
+    <state width="1237" height="113" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580308085885" />
+    <state width="1237" height="113" key="GridCell.Tab.0.left" timestamp="1580308085885">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580294233868" />
-    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1580294233869">
+    <state width="1237" height="113" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580308085885" />
+    <state width="1237" height="113" key="GridCell.Tab.0.right" timestamp="1580308085886">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580294233869" />
+    <state width="1237" height="113" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580308085886" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1580303586568">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580303586568" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1580303586568">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580303586568" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1580303586568">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580303586568" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1580303586568">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580303586568" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1580195119031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

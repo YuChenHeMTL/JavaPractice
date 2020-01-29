@@ -1,6 +1,6 @@
 package character.character;
 
-public class ADHero extends Hero implements AD, Mortal {
+public class ADHero extends Hero implements AD, Mortal{
     public void attack() {
         System.out.println(name + " 进行了一次攻击 ，但是不确定打中谁了");
     }
