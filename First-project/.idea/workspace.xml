@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ed5a82-e4cf-4a6f-bd6d-cb0f50b938a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/character/practice/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/practice/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/practice/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/practice/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/character/practice/Spider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/Integers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/printf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/stringConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date/simpleDateFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/IStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/MyStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/manipulate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/stringbuffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/character/AD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/character/character/AD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/character/AP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/character/character/AP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/character/AD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/AD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/character/ADAPHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/ADAPHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/character/ADHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/ADHero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/character/AP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/AP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/character/Mortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/Mortal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/string/strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/string/strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/strings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +65,9 @@
       <command value="HelloWorld" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.strings">
-    <configuration name="character" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.character" />
+  <component name="RunManager" selected="Application.calendar">
+    <configuration name="MyStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.MyStringBuffer" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.math" />
+    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="date.basic" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.printf" />
+    <configuration name="calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="date.calendar" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.stringConversion" />
+    <configuration name="simpleDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="date.simpleDateFormat" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.strings" />
+    <configuration name="stringbuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.stringbuffer" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.strings" />
-        <item itemvalue="Application.character" />
-        <item itemvalue="Application.printf" />
-        <item itemvalue="Application.math" />
-        <item itemvalue="Application.stringConversion" />
+        <item itemvalue="Application.calendar" />
+        <item itemvalue="Application.simpleDateFormat" />
+        <item itemvalue="Application.basic" />
+        <item itemvalue="Application.MyStringBuffer" />
+        <item itemvalue="Application.stringbuffer" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +167,7 @@
       <workItem from="1580130321032" duration="2101000" />
       <workItem from="1580195156226" duration="273000" />
       <workItem from="1580195536762" duration="239000" />
-      <workItem from="1580196093906" duration="36043000" />
+      <workItem from="1580196093906" duration="47814000" />
     </task>
     <servers />
   </component>
@@ -199,38 +191,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1580292837447" />
-    <state width="1237" height="113" key="GridCell.Tab.0.bottom" timestamp="1580308085886">
+    <state width="1237" height="192" key="GridCell.Tab.0.bottom" timestamp="1580384667643">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="113" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580308085886" />
-    <state width="1237" height="113" key="GridCell.Tab.0.center" timestamp="1580308085885">
+    <state width="1237" height="192" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580384667643" />
+    <state width="1237" height="192" key="GridCell.Tab.0.center" timestamp="1580384667643">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="113" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580308085885" />
-    <state width="1237" height="113" key="GridCell.Tab.0.left" timestamp="1580308085885">
+    <state width="1237" height="192" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580384667643" />
+    <state width="1237" height="192" key="GridCell.Tab.0.left" timestamp="1580384667643">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="113" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580308085885" />
-    <state width="1237" height="113" key="GridCell.Tab.0.right" timestamp="1580308085886">
+    <state width="1237" height="192" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580384667643" />
+    <state width="1237" height="192" key="GridCell.Tab.0.right" timestamp="1580384667643">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="113" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580308085886" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1580303586568">
+    <state width="1237" height="192" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580384667643" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1580360413888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580303586568" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1580303586568">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580360413888" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1580360413888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580303586568" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1580303586568">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580360413888" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1580360413888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580303586568" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1580303586568">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580360413888" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1580360413888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580303586568" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580360413888" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1580195119031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

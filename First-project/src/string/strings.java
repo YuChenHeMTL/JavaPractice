@@ -13,7 +13,7 @@ public class strings {
         return (char) rchar;
     }
 
-    public String getRandomCharString(int num){
+    public static String getRandomCharString(int num){
         strings strs = new strings();
         String s = "";
         for (int i = 0; i < num; i++){
