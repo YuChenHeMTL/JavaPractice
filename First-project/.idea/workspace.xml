@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ed5a82-e4cf-4a6f-bd6d-cb0f50b938a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/date/basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/date/calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/date/simpleDateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/IStringBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/MyStringBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/manipulate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/stringbuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/file.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/EnemyHeroIsDeadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/MyStringBufferExceptions/IndexIsNegativeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/MyStringBufferExceptions/IndexIsOutofRangeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/basicException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/exceptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/practice/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/practice/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/practice/OverdraftException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/throwable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/string/strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/string/strings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/character/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/character/character/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/string/IStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/string/IStringBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/string/MyStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/string/MyStringBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/character/character/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/IStringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/IStringBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/MyStringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/MyStringBuffer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,33 @@
       <command value="HelloWorld" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.calendar">
+  <component name="RunManager" selected="Application.file">
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.practice.Account" />
+      <module name="First-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnemyHeroIsDeadException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.EnemyHeroIsDeadException" />
+      <module name="First-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.MyStringBuffer" />
       <module name="First-project" />
@@ -79,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="date.basic" />
+    <configuration name="file" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOFile.file" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="date.*" />
+          <option name="PATTERN" value="IOFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,38 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="date.calendar" />
+    <configuration name="throwable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.throwable" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="simpleDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="date.simpleDateFormat" />
-      <module name="First-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="stringbuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.stringbuffer" />
-      <module name="First-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.calendar" />
-        <item itemvalue="Application.simpleDateFormat" />
-        <item itemvalue="Application.basic" />
+        <item itemvalue="Application.file" />
+        <item itemvalue="Application.Account" />
         <item itemvalue="Application.MyStringBuffer" />
-        <item itemvalue="Application.stringbuffer" />
+        <item itemvalue="Application.EnemyHeroIsDeadException" />
+        <item itemvalue="Application.throwable" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +173,7 @@
       <workItem from="1580130321032" duration="2101000" />
       <workItem from="1580195156226" duration="273000" />
       <workItem from="1580195536762" duration="239000" />
-      <workItem from="1580196093906" duration="47814000" />
+      <workItem from="1580196093906" duration="55745000" />
     </task>
     <servers />
   </component>
@@ -191,22 +197,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1580292837447" />
-    <state width="1237" height="192" key="GridCell.Tab.0.bottom" timestamp="1580384667643">
+    <state width="1237" height="324" key="GridCell.Tab.0.bottom" timestamp="1580459877558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="192" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580384667643" />
-    <state width="1237" height="192" key="GridCell.Tab.0.center" timestamp="1580384667643">
+    <state width="1237" height="324" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580459877558" />
+    <state width="1237" height="324" key="GridCell.Tab.0.center" timestamp="1580459877558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="192" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580384667643" />
-    <state width="1237" height="192" key="GridCell.Tab.0.left" timestamp="1580384667643">
+    <state width="1237" height="324" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580459877558" />
+    <state width="1237" height="324" key="GridCell.Tab.0.left" timestamp="1580459877558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="192" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580384667643" />
-    <state width="1237" height="192" key="GridCell.Tab.0.right" timestamp="1580384667643">
+    <state width="1237" height="324" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580459877558" />
+    <state width="1237" height="324" key="GridCell.Tab.0.right" timestamp="1580459877558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="192" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580384667643" />
+    <state width="1237" height="324" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580459877558" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1580360413888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

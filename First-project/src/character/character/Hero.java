@@ -1,5 +1,7 @@
 package character.character;
 
+import exceptions.EnemyHeroIsDeadException;
+
 import java.util.Scanner;
 
 public class Hero {
@@ -28,6 +30,12 @@ public class Hero {
     public Hero(String name,float hp){
         this.name = name;
         this.hp = hp;
+    }
+
+    public void attackHero(Hero h) throws EnemyHeroIsDeadException {
+        if(h.hp == 0){
+            throw new EnemyHeroIsDeadException(h.name + " 已经挂了,不需要施放技能" );
+        }
     }
 
     //todo: practice

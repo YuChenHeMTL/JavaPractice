@@ -1,5 +1,8 @@
 package string;
 
+import exceptions.MyStringBufferExceptions.IndexIsNegativeException;
+import exceptions.MyStringBufferExceptions.IndexIsOutofRangeException;
+
 public class MyStringBuffer implements IStringBuffer{
     int capacity = 16;
     int length = 0;
@@ -27,32 +30,29 @@ public class MyStringBuffer implements IStringBuffer{
         }
     }
 
-    public void append(String str){
+    public void append(String str) throws IndexIsOutofRangeException, IndexIsNegativeException {
         insert(length + 1, str);
     }; //追加字符串
 
-    public void append(char c){
+    public void append(char c) throws IndexIsOutofRangeException, IndexIsNegativeException {
         append(String.valueOf(c));
     };  //追加字符
 
-    public void insert(int pos,char b){
+    public void insert(int pos,char b) throws IndexIsOutofRangeException, IndexIsNegativeException {
         insert(pos, String.valueOf(b));
     }; //指定位置插入字符
 
     @Override
-    public void insert(int pos, String b) {
+    public void insert(int pos, String b) throws IndexIsOutofRangeException, IndexIsNegativeException {
 
         pos --;
 
         //边界条件判断
-        if (pos < 0)
-            return;
+        if (pos < 0) throw new IndexIsNegativeException();
 
-        if (pos > length)
-            return;
+        if (pos > length) throw new IndexIsOutofRangeException();
 
-        if (null == b)
-            return;
+        if (null == b) throw new NullPointerException();
 
         //扩容
         while (length + b.length() > capacity) {
@@ -73,26 +73,21 @@ public class MyStringBuffer implements IStringBuffer{
         length = length + cs.length;
     }
 
-    public void delete(int start){
+    public void delete(int start) throws IndexIsNegativeException, IndexIsOutofRangeException {
         delete(start, value.length);
     }; //从开始位置删除剩下的
 
-    public void delete(int start, int end) {
+    public void delete(int start, int end) throws IndexIsNegativeException, IndexIsOutofRangeException {
         //边界条件判断
-        if(start<0)
-            return;
+        if(start<0) throw new IndexIsNegativeException();
 
-        if(start>length)
-            return;
+        if(start>length) throw new IndexIsOutofRangeException();
 
-        if(end<0)
-            return;
+        if(end<0) throw new IndexIsNegativeException();
 
-        if(end>length)
-            return;
+        if(end>length) throw new IndexIsOutofRangeException();
 
-        if(start>=end)
-            return;
+        if(start>=end) throw new IndexIsOutofRangeException();
 
         System.arraycopy(value, end, value, start, length- end);
         length-=end-start;
@@ -108,7 +103,7 @@ public class MyStringBuffer implements IStringBuffer{
         return String.valueOf(value);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IndexIsNegativeException, IndexIsOutofRangeException {
         String newS = strings.getRandomCharString(10);
         StringBuffer sb = new StringBuffer(newS);
         Long now = System.currentTimeMillis();
@@ -121,7 +116,12 @@ public class MyStringBuffer implements IStringBuffer{
         MyStringBuffer msb = new MyStringBuffer(newS);
         now = System.currentTimeMillis();
         for (int i = 0; i < 1000000; i++){
-            msb.insert(0, strings.getRandomCharString(1));
+            try {
+                msb.insert(0, strings.getRandomCharString(1));
+            } catch (IndexIsNegativeException | IndexIsOutofRangeException e){
+                e.printStackTrace();
+                break;
+            }
         }
         System.out.println("MyStringBuffer: time - " + (System.currentTimeMillis() - now));
 
