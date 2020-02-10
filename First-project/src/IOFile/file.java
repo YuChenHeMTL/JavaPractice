@@ -86,21 +86,33 @@ public class file {
 
         //todo: practice
         File root = new File("C:\\Windows");
-        File[] allFiles = root.listFiles();
-        long max = allFiles[0].length();
-        String maxName = "";
-        long min = allFiles[0].length();
-        String minName = "";
-        for (int i = 0; i < allFiles.length; i++){
-            if (allFiles[i].length() < min && allFiles[i].length() != 0){
-                min = allFiles[i].length();
-                minName = allFiles[i].getPath();
-            } else if (allFiles[i].length() > max){
-                max = allFiles[i].length();
-                maxName = allFiles[i].getPath();
+        listAllFiles(root);
+        System.out.println("最大文件：" + maxName + ", 其大小是：" + maxSize);
+        System.out.println("最小文件：" + minName + ", 其大小是：" + minSize);
+    }
+
+    public static long maxSize = 0;
+    public static long minSize = Long.MAX_VALUE;
+    public static String maxName = "";
+    public static String minName = "";
+
+    public static void listAllFiles(File f){
+        if (null == f) return;
+        if (f.isFile()){
+            if (f.length() > maxSize){
+                maxSize = f.length();
+                maxName = f.getPath();
+            } else if (f.length() < minSize && f.length() != 0){
+                minSize = f.length();
+                minName = f.getPath();
+            }
+        } else if (f.isDirectory()){
+            File[] allFiles = f.listFiles();
+            if (null != allFiles){
+                for (File file : allFiles){
+                    listAllFiles(file);
+                }
             }
         }
-        System.out.println("最大文件：" + maxName + ", 其大小是：" + max);
-        System.out.println("最小文件：" + minName + ", 其大小是：" + min);
     }
 }

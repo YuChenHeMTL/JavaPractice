@@ -2,23 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ed5a82-e4cf-4a6f-bd6d-cb0f50b938a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IOFile/file.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/EnemyHeroIsDeadException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/MyStringBufferExceptions/IndexIsNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/MyStringBufferExceptions/IndexIsOutofRangeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/basicException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/exceptionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/practice/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/practice/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/practice/OverdraftException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/throwable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOL卸载.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/DataInputOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/SerializableHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/bufferedPrintWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/practice/practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/readerWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/serializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/systemIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IOFile/utf8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class-model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/arraylist/arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/arraylist/iteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/arraylist/list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/diffenrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/BinaryTree/HeroNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/Sets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/hashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/hashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/linkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/others/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/others/IHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/others/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/others/comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/others/hashcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/others/usingLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/otherCollections/queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/IOFile/file.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/IOFile/file.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/First-project/character/character/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/character/character/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/string/IStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/string/IStringBuffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/First-project/string/MyStringBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/string/MyStringBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/First-project/character/property/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/First-project/character/property/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IOFile/file.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IOFile/file.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/character/character/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/character/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/IStringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/IStringBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/MyStringBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/MyStringBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/character/property/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/property/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +75,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,13 +93,13 @@
       <command value="HelloWorld" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.file">
-    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.practice.Account" />
+  <component name="RunManager" selected="Application.usingLambda">
+    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.otherCollections.others.MyHashMap" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.practice.*" />
+          <option name="PATTERN" value="collections.otherCollections.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnemyHeroIsDeadException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.EnemyHeroIsDeadException" />
+    <configuration name="Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.otherCollections.Sets" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="collections.otherCollections.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.MyStringBuffer" />
+    <configuration name="comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.otherCollections.others.comparator" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="collections.otherCollections.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="file" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IOFile.file" />
+    <configuration name="hashcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.otherCollections.others.hashcode" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IOFile.*" />
+          <option name="PATTERN" value="collections.otherCollections.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="throwable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.throwable" />
+    <configuration name="usingLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.otherCollections.others.usingLambda" />
       <module name="First-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="collections.otherCollections.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.file" />
-        <item itemvalue="Application.Account" />
-        <item itemvalue="Application.MyStringBuffer" />
-        <item itemvalue="Application.EnemyHeroIsDeadException" />
-        <item itemvalue="Application.throwable" />
+        <item itemvalue="Application.usingLambda" />
+        <item itemvalue="Application.comparator" />
+        <item itemvalue="Application.MyHashMap" />
+        <item itemvalue="Application.hashcode" />
+        <item itemvalue="Application.Sets" />
       </list>
     </recent_temporary>
   </component>
@@ -174,11 +196,15 @@
       <workItem from="1580195156226" duration="273000" />
       <workItem from="1580195536762" duration="239000" />
       <workItem from="1580196093906" duration="55745000" />
+      <workItem from="1581060189455" duration="46798000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="0" key="#HelloWorld" timestamp="1580123097699">
@@ -189,6 +215,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580123045435" />
+    <state x="395" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581171187469">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="395" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1581171187469" />
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1580282376410">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -197,49 +227,57 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="198" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1580292837447" />
-    <state width="1237" height="324" key="GridCell.Tab.0.bottom" timestamp="1580459877558">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1581081896467">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="324" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580459877558" />
-    <state width="1237" height="324" key="GridCell.Tab.0.center" timestamp="1580459877558">
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581081896467" />
+    <state width="1237" height="172" key="GridCell.Tab.0.bottom" timestamp="1581259201027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="324" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580459877558" />
-    <state width="1237" height="324" key="GridCell.Tab.0.left" timestamp="1580459877558">
+    <state width="1237" height="172" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581259201027" />
+    <state width="1237" height="172" key="GridCell.Tab.0.center" timestamp="1581259201027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="324" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580459877558" />
-    <state width="1237" height="324" key="GridCell.Tab.0.right" timestamp="1580459877558">
+    <state width="1237" height="172" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581259201027" />
+    <state width="1237" height="172" key="GridCell.Tab.0.left" timestamp="1581259201027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="324" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580459877558" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1580360413888">
+    <state width="1237" height="172" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581259201027" />
+    <state width="1237" height="172" key="GridCell.Tab.0.right" timestamp="1581259201027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580360413888" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1580360413888">
+    <state width="1237" height="172" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581259201027" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1581253889288">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580360413888" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1580360413888">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581253889288" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1581253889288">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580360413888" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1580360413888">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1581253889288" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1581253889287">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580360413888" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1581253889287" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1581253889288">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581253889288" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1580195119031">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1580195119031" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1581303791485">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581303791485" />
     <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1580123069715">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1580123069715" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1580282118828">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1581241702527">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1580282118828" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581241702527" />
   </component>
 </project>

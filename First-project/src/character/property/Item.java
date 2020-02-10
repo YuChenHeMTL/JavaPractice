@@ -1,16 +1,29 @@
 package character.property;
 
 public class Item {
-    String name;
-    int price;
+    public String name;
+    public int price;
+
+    public Item(String name) {
+        this.name = name;
+    }
+
+    public Item(String name, int price){
+        this.name = name;
+        this.price = price;
+    }
+
+    public Item(){
+        this.name = null;
+    }
 
     public void effect(){
         System.out.println("物品使用后，可以有效果");
     }
 
     //todo: Object practice
-    public String toString(){
-        return this.name + this.price;
+    public String toString() {
+        return "Item [name= " + name + ", price = " + price + "]\r\n";
     }
 
     public void finalize(){

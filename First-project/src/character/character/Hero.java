@@ -14,6 +14,8 @@ public class Hero {
 
     public int moveSpeed; //移动速度
 
+    public float damage;
+
     public Hero(){
         this.name = "";
         this.hp = 0;
@@ -30,6 +32,16 @@ public class Hero {
     public Hero(String name,float hp){
         this.name = name;
         this.hp = hp;
+    }
+
+    public Hero(String name, int hp, int damage) {
+        this.name = name;
+        this.hp = hp;
+        this.damage = damage;
+    }
+
+    public String toString() {
+        return "Hero [name=" + name + ", hp=" + hp + ", damage=" + damage + "]\r\n";
     }
 
     public void attackHero(Hero h) throws EnemyHeroIsDeadException {
@@ -154,4 +166,7 @@ public class Hero {
 
     }
 
+    public String getName() {
+        return this.name;
+    }
 }
